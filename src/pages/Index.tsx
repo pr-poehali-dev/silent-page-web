@@ -142,13 +142,21 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
           {/* Logo */}
-          <button className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo("home")}>
+          <button className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo("home")}>
             <img
-              src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/4a3d561a-eda8-4920-8ed4-b9950c220af7.png"
+              src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/479a1cbf-3d8b-4532-a0c4-12c6c391f239.png"
               alt="Silent Page"
-              className="h-10 w-auto object-contain"
+              className="h-9 w-auto object-contain"
               style={{ mixBlendMode: "screen", filter: "brightness(1.1)" }}
             />
+            <div className="text-left">
+              <div className="font-cormorant font-semibold leading-none" style={{ fontSize: "1.2rem", color: "var(--sp-ash-white)" }}>
+                Silent Page
+              </div>
+              <div style={{ color: "var(--sp-ash-grey)", fontSize: "0.58rem", letterSpacing: "0.14em", textTransform: "uppercase" }}>
+                Literary Platform
+              </div>
+            </div>
           </button>
 
           {/* Desktop nav */}
@@ -642,9 +650,9 @@ export default function Index() {
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/4a3d561a-eda8-4920-8ed4-b9950c220af7.png"
+                  src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/479a1cbf-3d8b-4532-a0c4-12c6c391f239.png"
                   alt="Silent Page"
-                  className="h-9 w-auto object-contain"
+                  className="h-8 w-auto object-contain"
                   style={{ mixBlendMode: "screen", filter: "brightness(1.1)" }}
                 />
               </div>
