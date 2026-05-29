@@ -144,10 +144,10 @@ export default function Index() {
           {/* Logo */}
           <button className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo("home")}>
             <img
-              src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/951b25c9-1eb4-413d-9340-ec10c163b0e5.png"
+              src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/4a3d561a-eda8-4920-8ed4-b9950c220af7.png"
               alt="Silent Page"
               className="h-10 w-auto object-contain"
-              style={{ mixBlendMode: "screen", filter: "invert(1) brightness(0.9)" }}
+              style={{ mixBlendMode: "screen", filter: "brightness(1.1)" }}
             />
           </button>
 
@@ -642,10 +642,10 @@ export default function Index() {
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/951b25c9-1eb4-413d-9340-ec10c163b0e5.png"
+                  src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/4a3d561a-eda8-4920-8ed4-b9950c220af7.png"
                   alt="Silent Page"
                   className="h-9 w-auto object-contain"
-                  style={{ mixBlendMode: "screen", filter: "invert(1) brightness(0.9)" }}
+                  style={{ mixBlendMode: "screen", filter: "brightness(1.1)" }}
                 />
               </div>
               <p className="font-cormorant italic mb-5" style={{ fontSize: "1rem", color: "var(--sp-ash-grey)", lineHeight: 1.8, maxWidth: "300px" }}>
