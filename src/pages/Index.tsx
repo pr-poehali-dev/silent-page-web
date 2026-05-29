@@ -142,21 +142,13 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
           {/* Logo */}
-          <button className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo("home")}>
-            <div
-              className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0"
-              style={{ background: "linear-gradient(135deg, var(--sp-deep-purple), var(--sp-violet))", border: "1px solid rgba(155,142,196,0.4)" }}
-            >
-              <span style={{ fontSize: "1rem", color: "white" }}>✦</span>
-            </div>
-            <div className="text-left">
-              <div className="font-cormorant font-semibold text-xl leading-none" style={{ color: "var(--sp-ash-white)" }}>
-                Silent Page
-              </div>
-              <div style={{ color: "var(--sp-ash-grey)", fontSize: "0.6rem", letterSpacing: "0.14em", textTransform: "uppercase" }}>
-                Literary Platform
-              </div>
-            </div>
+          <button className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo("home")}>
+            <img
+              src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/6063a4c5-d73a-448b-970b-3d1340c6040d.png"
+              alt="Silent Page"
+              className="h-10 w-auto object-contain"
+              style={{ filter: "brightness(1.1)" }}
+            />
           </button>
 
           {/* Desktop nav */}
@@ -649,10 +641,12 @@ export default function Index() {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ background: "linear-gradient(135deg, var(--sp-deep-purple), var(--sp-violet))" }}>
-                  <span style={{ fontSize: "0.85rem", color: "white" }}>✦</span>
-                </div>
-                <span className="font-cormorant font-semibold text-xl" style={{ color: "var(--sp-ash-white)" }}>Silent Page</span>
+                <img
+                  src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/6063a4c5-d73a-448b-970b-3d1340c6040d.png"
+                  alt="Silent Page"
+                  className="h-9 w-auto object-contain"
+                  style={{ filter: "brightness(1.1)" }}
+                />
               </div>
               <p className="font-cormorant italic mb-5" style={{ fontSize: "1rem", color: "var(--sp-ash-grey)", lineHeight: 1.8, maxWidth: "300px" }}>
                 «Where the world fades, the story begins» — пространство для писателей и читателей, которые ценят тишину.
