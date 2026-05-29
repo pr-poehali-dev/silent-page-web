@@ -147,7 +147,7 @@ export default function Index() {
               src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/951b25c9-1eb4-413d-9340-ec10c163b0e5.png"
               alt="Silent Page"
               className="h-10 w-auto object-contain"
-              style={{ filter: "brightness(1.05)" }}
+              style={{ mixBlendMode: "screen", filter: "invert(1) brightness(0.9)" }}
             />
           </button>
 
@@ -645,7 +645,7 @@ export default function Index() {
                   src="https://cdn.poehali.dev/projects/3bd6e43b-bd69-4f5a-9ded-2d3ae07198f1/bucket/951b25c9-1eb4-413d-9340-ec10c163b0e5.png"
                   alt="Silent Page"
                   className="h-9 w-auto object-contain"
-                  style={{ filter: "brightness(1.05)" }}
+                  style={{ mixBlendMode: "screen", filter: "invert(1) brightness(0.9)" }}
                 />
               </div>
               <p className="font-cormorant italic mb-5" style={{ fontSize: "1rem", color: "var(--sp-ash-grey)", lineHeight: 1.8, maxWidth: "300px" }}>
